@@ -30,3 +30,4 @@ def french_to_english(french_text):
     text=french_text,
     model_id='fr-en').get_result()
     return english_text
+
